@@ -1,7 +1,7 @@
 # delete_badmemories_from_facebook
 Chronimum will handle deletions of Facebook posts
 
-Modified spieglt's and Alex Young's work.
+Modified Spieglt's and Alex Young's work.
 https://github.com/spieglt/fb-delete
 https://github.com/alexjyong/FaceSpace-Cleaner
 
