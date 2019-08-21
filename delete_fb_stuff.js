@@ -121,7 +121,6 @@ async function deletePosts(month, year) {
             }
             if(deleteElements.length == 0 && removeElements.length == 0){
               for (const el of visibilityElements){
-                console.log(el);
                   links.push({link:el.href, seen:0});
               }
             }
