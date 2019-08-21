@@ -111,11 +111,19 @@ async function deletePosts(month, year) {
             var links = [];
             const deleteElements = document.querySelectorAll('a[href*="allactivity/delete"]');
             const removeElements = document.querySelectorAll('a[href*="allactivity/removecontent"]');
+            const visibilityElements = document.querySelectorAll('a[href*="allactivity/visibility"]');
+
             for (const el of deleteElements) {
                 links.push({link:el.href, seen:0});
             }
             for (const el of removeElements) {
                 links.push({link:el.href, seen:0});
+            }
+            if(deleteElements.length == 0 && removeElements.length == 0){
+              for (const el of visibilityElements){
+                console.log(el);
+                  links.push({link:el.href, seen:0});
+              }
             }
             return links;
         });

@@ -1,5 +1,5 @@
 {
-  "name": "FaceSpace-Cleaner",
+  "name": "delete-badmemories-from-facebook",
   "version": "1.1.0",
   "description": "Electron wrapper around fb-delete by spieglt. ",
   "main": "main.js",
@@ -9,7 +9,7 @@
     "package-win": "electron-packager . --overwrite --platform=win32 --arch=ia32 --icon=assets/icons/win/icon_32x32@2x.png --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"FaceSpace-Cleaner\"",
     "package-linux": "electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/icon_32x32@2x.png --prune=true --out=release-builds"
   },
-  "author": "Alex Yong",
+  "author": "geniuskouta",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.3",
@@ -18,10 +18,13 @@
     "popper.js": "^1.12.9",
     "puppeteer": "^1.18.1"
   },
-  "repository": "https://github.com/alexjyong/facespace-cleaner",
   "devDependencies": {
     "command-line-args": "^5.0.2",
     "electron": "^3.0.3",
     "electron-packager": "^13.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/alexjyong/facespace-cleaner/issues"
+  },
+  "homepage": "https://github.com/alexjyong/facespace-cleaner#readme"
 }
